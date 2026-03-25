@@ -79,8 +79,7 @@ export default function App() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6 leading-tight"
         >
-          AdaptToken: Entropy-based Adaptive Token Selection <br className="hidden md:block" />
-          for MLLM Long Video Understanding
+          <span className="bg-gradient-to-r from-[#AA74FF] to-[#2DB14A] bg-clip-text text-transparent">AdaptToken</span>: Entropy-based Adaptive Token Selection for MLLM Long Video Understanding
         </motion.h1>
 
         <motion.div 
