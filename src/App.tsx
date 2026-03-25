@@ -177,7 +177,7 @@ export default function App() {
           </div>
           <div className="bg-white p-4 md:p-8 rounded-3xl shadow-xl border border-gray-100">
             <img 
-              src="/fig2.png" 
+              src={`${import.meta.env.BASE_URL}fig2.png`}
               alt="AdaptToken Pipeline" 
               className="rounded-xl w-full"
               referrerPolicy="no-referrer"
@@ -207,7 +207,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-100">
               <img 
-                src="/fig3.png" 
+                src={`${import.meta.env.BASE_URL}fig3.png`}
                 alt="Needle-in-a-Haystack Entropy" 
                 className="w-full rounded-lg mb-4"
                 referrerPolicy="no-referrer"
@@ -216,7 +216,7 @@ export default function App() {
             </div>
             <div className="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-100">
               <img 
-                src="/fig4.png" 
+                src={`${import.meta.env.BASE_URL}fig4.png`}
                 alt="Real-data Entropy" 
                 className="w-full rounded-lg mb-4"
                 referrerPolicy="no-referrer"
@@ -246,7 +246,7 @@ export default function App() {
           </div>
           <div className="bg-white p-4 md:p-8 rounded-3xl shadow-xl border border-gray-100">
             <img 
-              src="/fig5.png" 
+              src={`${import.meta.env.BASE_URL}fig5.png`}
               alt="Entropy-guided Selection" 
               className="rounded-xl w-full"
               referrerPolicy="no-referrer"
@@ -266,7 +266,7 @@ export default function App() {
             <h4 className="text-xl font-bold mb-6">SOTA Performance</h4>
             <div className="flex-grow flex flex-col justify-center">
               <img 
-                src="/fig1.png" 
+                src={`${import.meta.env.BASE_URL}fig1.png`}
                 alt="Radar Chart Results" 
                 className="w-full h-auto mb-6"
                 referrerPolicy="no-referrer"
@@ -397,7 +397,7 @@ export default function App() {
 
         <div className="mt-20 bg-white rounded-3xl shadow-sm border border-gray-100 p-6 overflow-hidden">
           <img 
-            src="/tab1.png" 
+            src={`${import.meta.env.BASE_URL}tab1.png`}
             alt="Table 1: Performance Comparison" 
             className="w-full h-auto rounded-xl"
             referrerPolicy="no-referrer"
