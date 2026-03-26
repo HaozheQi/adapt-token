@@ -343,7 +343,7 @@ export default function App() {
                   <ResponsiveContainer width="100%" height="100%">
                     <AreaChart
                       data={scalingData}
-                      margin={{ top: 10, right: 10, left: -20, bottom: 0 }}
+                      margin={{ top: 10, right: 10, left: -12, bottom: 0 }}
                     >
                       <defs>
                         <linearGradient id={`color${chart.key}`} x1="0" y1="0" x2="0" y2="1">
@@ -357,12 +357,14 @@ export default function App() {
                         axisLine={false}
                         tickLine={false}
                         tick={{ fontSize: 10 }}
+                        label={{ value: 'Number of Frames', position: 'insideBottom', offset: 0, fontSize: 10, fill: '#6b7280', fontWeight: 500 }}
                       />
                       <YAxis 
                         domain={chart.domain}
                         axisLine={false}
                         tickLine={false}
                         tick={{ fontSize: 10 }}
+                        label={{ value: 'Accuracy (%)', angle: -90, position: 'insideLeft', offset: 18, fontSize: 10, fill: '#6b7280', fontWeight: 500 }}
                       />
                       <Tooltip 
                         contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontSize: '12px' }}
