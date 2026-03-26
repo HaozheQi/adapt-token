@@ -307,8 +307,8 @@ export default function App() {
                       <span>{item.liteTime}s vs {item.fullTime}s</span>
                     </div>
                     <div className="relative h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                      <div className="absolute left-0 top-0 h-full bg-blue-600 rounded-full transition-all" style={{ width: `${(item.liteTime / 35) * 100}%` }}></div>
-                      <div className="absolute left-0 top-0 h-full bg-orange-500 rounded-full opacity-30" style={{ width: `${(item.fullTime / 35) * 100}%` }}></div>
+                      <div className="absolute left-0 top-0 h-full bg-blue-600 rounded-full transition-all z-10" style={{ width: `${(item.liteTime / 35) * 100}%` }}></div>
+                      <div className="absolute left-0 top-0 h-full bg-orange-500 rounded-full" style={{ width: `${(item.fullTime / 35) * 100}%` }}></div>
                     </div>
                     <div className="mt-1.5 text-[10px] text-blue-600 font-bold flex items-center gap-1">
                       <Zap size={10} />
